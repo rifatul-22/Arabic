@@ -1,14 +1,84 @@
+h1, h2, h3, h4, h5, h6,
+ol, ul, p, small.span, button {
+  margin: 0;
+  padding: 0;
+}
 
-/* common css start  */
-h1,h2,h3,h4,h5,h6,
-ol,ul,p,small.span,button{
-    margin: 0;
-    padding: 0;
+ol, ul {
+  list-style-type: none;
 }
-ol,ul{
-    list-style-type: none;
+
+a, a:hover {
+  text-decoration: none;
 }
-a,a:hover{
-    text-decoration: none;
+
+* {
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
-/* common css end  */
+
+header {
+  margin-top: 16px;
+  position: relative;
+}
+header img {
+  position: absolute;
+  top: -14px;
+  z-index: -1;
+}
+header .logo a img {
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+header .menu a {
+  display: inline-block;
+  padding: 15px 47px;
+  border: 1px solid #5DC4B8;
+  font-size: 18px;
+  font-weight: 700;
+  color: #5DC4B8;
+  border-radius: 18px;
+  transition: 0.4s;
+}
+header .menu a:hover {
+  color: red;
+}
+header .header_banner_content {
+  margin-top: 145px;
+}
+header .header_banner_content h4 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #61C3B8;
+  margin-bottom: 18px;
+}
+header .header_banner_content h1 {
+  font-size: 61px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 22px;
+}
+header .header_banner_content p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333333;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 42px;
+}
+header .header_banner_content a {
+  padding: 15px 37px;
+  background: #EF633E;
+  color: #fff;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+header .header_banner_img {
+  position: relative;
+}
+header .header_banner_img img {
+  position: absolute;
+  top: 0;
+}/*# sourceMappingURL=style.css.map */
