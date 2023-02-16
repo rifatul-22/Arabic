@@ -215,6 +215,86 @@ header .header_banner_img img {
   font-weight: 700;
   color: #5DC4B8;
   border: 1px solid #5DC4B8;
-  margin-bottom: 93px;
+  margin-bottom: 80px;
   border-radius: 15px;
+}
+
+#delicious_food {
+  margin-top: 200px;
+}
+#delicious_food .delicious_food_title h5 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #61C3B8;
+  margin-bottom: 25px;
+}
+#delicious_food .delicious_food_title h3 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 11px;
+}
+#delicious_food .delicious_food_title p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 100px;
+}
+#delicious_food .delicious_food_item {
+  margin-left: 30px;
+}
+#delicious_food .delicious_food_item .card {
+  border: none;
+  border-radius: 20px;
+}
+#delicious_food .delicious_food_item .card_img img {
+  padding-right: 32px;
+}
+#delicious_food .delicious_food_item .card-body {
+  padding-right: 32px;
+  position: relative;
+}
+#delicious_food .delicious_food_item .card-body h4 {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 7px;
+}
+#delicious_food .delicious_food_item .card-body .star {
+  color: #5DC4B8;
+}
+#delicious_food .delicious_food_item .card-body .star i:first-child {
+  color: #DCDCDC;
+}
+#delicious_food .delicious_food_item .card-body .p_img_1 {
+  position: absolute;
+  top: 72px;
+  right: 179px;
+}
+#delicious_food .delicious_food_item .card-body .p_img_2 {
+  position: absolute;
+  left: 38px;
+  bottom: -8px;
+}
+#delicious_food .delicious_food_link {
+  margin-top: 110px;
+}
+#delicious_food .delicious_food_link a {
+  color: #5DC4B8;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #5DC4B8;
+  padding: 15px 48px;
+  border-radius: 15px;
+}
+
+#category {
+  margin-top: 180px;
+}
+#category .category_title h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #5DC4B8;
+  margin-bottom: 78px;
 }/*# sourceMappingURL=style.css.map */
