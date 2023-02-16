@@ -302,5 +302,73 @@ header{
         color: #5DC4B8;
         margin-bottom: 78px;
     }
+    .category_item{
+        background: rgba(255, 240, 236, 1);
+        position: relative;
+        border-radius: 30px;
+        border-top-left-radius: 30%;
+        margin-left: 30px;
+        &:nth-child(2){
+            background: rgba(228, 255, 252, 1);
+        }
+        &:nth-child(3){
+            background: rgba(255, 248, 236, 1);
+        }
+        &:nth-child(4){
+            background: rgba(255, 240, 236, 1);
+        }
+        .cate_1{
+            position: absolute;
+            top: -72px;
+            left: -20px;
+        }
+        .cate_2{
+            z-index: 99;
+            position: absolute;
+            top: 5px;
+            right: 74px;
+        }
+        h5{
+            margin-top: 127px;
+            margin-bottom: 40px;
+        }
+    }
 }
 // Category section css end 
+// Gallery section css start
+#gallery{
+    margin-top: 263px;
+    .gallery_content{
+        background: rgba(255, 240, 236, 1);
+        padding: 100px 0;
+        padding-right: 70px;
+
+        h5{
+            font-size: 23px;
+            font-weight: 700;
+            color: #61C3B8;
+            margin-bottom: 20px;
+        }
+        h3{
+            font-size: 56px;
+            font-weight: 700;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 19px;
+            font-weight: 400;
+            color: #333333;
+            margin-bottom: 30px;
+        }
+    }
+    .gallery_img{
+        background: rgba(255, 240, 236, 1);
+        position: relative;
+        .gally{
+            position: absolute;
+            top: -52px;
+        }
+    }
+} 
+// Gallery section css end 
